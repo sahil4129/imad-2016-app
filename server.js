@@ -29,7 +29,7 @@ function createtemplete (data){
     var heading = data.heading;
     var date = data.date;
     var content = data.content;
-varhtmltemplete = ` 
+var htmltemplete = ` 
 <html>
    <head>
        <title>
