@@ -5,7 +5,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
- var. articleone =  {
+ var articleone =  {
     title:'Article one',
     heading :'Article one',
     date :' sep 5 ,2016',
@@ -29,7 +29,7 @@ function createtemplete (data){
     var heading = data.heading;
     var date = data.date;
     var content = data.content;
-var.htmltemplete = ` 
+varhtmltemplete = ` 
 <html>
    <head>
        <title>
@@ -54,7 +54,8 @@ var.htmltemplete = `
         </div>
      </div>
    </body>
-</html>`;
+</html>
+`;
 return htmltemplete;
 }
 app.get('/', function (req, res) {
