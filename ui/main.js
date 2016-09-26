@@ -29,6 +29,6 @@ button.onclick = function()
         }
         
     };
-    request.open('GET',"http://sahil4129.imad.hasura-app",true);
+    request.open('GET',"http://sahil4129.imad.hasura-app.io",true);
 request.send(null);
 };
