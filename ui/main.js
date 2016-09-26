@@ -1,6 +1,6 @@
 console.log('Loaded!');
 
-var element = document.getElementById('modi');
+var img = document.getElementById('modi');
 var marginLeft =0;
 function moveRight ()
 {
